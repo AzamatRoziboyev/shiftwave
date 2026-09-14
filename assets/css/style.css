@@ -20,5 +20,5 @@ header .header-left {
 header .header-orta {
     width: 300px;
     height: 60px;
-    
+    border: 1px solid red;
 }
