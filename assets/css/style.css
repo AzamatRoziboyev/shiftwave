@@ -17,3 +17,8 @@ header .header-left {
     align-items: center;
     
 }
+header .header-orta {
+    width: 300px;
+    height: 60px;
+    
+}
