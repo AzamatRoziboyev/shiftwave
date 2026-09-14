@@ -6,7 +6,6 @@
 header {
     width: 100%;
     height: 100px;
-    border: 1px solid black;
     display: flex;
     justify-content: space-between;
     padding: 15px;
@@ -16,7 +15,6 @@ header {
 header .header-left {
     width: 180px;
     height: 60px;
-    border: 1px solid black;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -25,7 +23,6 @@ header .header-left {
 header .header-orta {
     width: 467px;
     height: 60px;
-    border: 1px solid red;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -43,16 +40,54 @@ header .header-rigth {
     border: 1px solid black;
 
 }
-header .header-rigth .login {
+header .header-right .login {
     width: 70px;
     height: 40px;
     background-color: white;
     border-radius: 4px;
+    border: none;
 
 }
-header .header-rigth .sign {
+header .header-right .sign {
     width: 137px;
     height: 40px;
     background-color: blue;
     border-radius: 4px;
+    color: white;
+    border: none;
+}
+.main {
+    width: 100%;
+    height: 856px;
+    background-image: url(/assets/img/8da4b2bd18a9ae624ae66abc71fc172ed5cb7975.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    padding: 50px;
+}
+.main h2 {
+    width: 750px;
+    height: 46px;
+    background-color: white;
+    border-radius: 4px;
+    font-size: 20px;
+    padding: 5px;
+}
+.main h2 b {
+    color: blue;
+}
+.main .like {
+    width: 929px;
+    height: 108px;
+    color: white;
+    border: 1px solid black;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.main h3 {
+    font-size: 55px;
 }
