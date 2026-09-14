@@ -91,3 +91,31 @@ header .header-right .sign {
 .main h3 {
     font-size: 55px;
 }
+.main .box {
+    width: 1280px;
+    height: 260px;
+    background-color: white;
+    border-radius: 5px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px;
+}
+.main .box .sound {
+    width: 284px;
+    height: 196px;
+    border: 1px solid black;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.main .box .sound p {
+    font-size: 22px;
+    font-weight: 900;
+}
+.main .box .sound small {
+    font-size: 20px;
+}
+.main .box .sound span {
+    color: blue;
+}
