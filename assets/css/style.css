@@ -184,8 +184,22 @@ header .header-right .sign {
     .main .like {
         width: 704px;
         height: 230px;
+        margin: auto;
 
     }
-    .main 
+    .main .box {
+        width: 704px;
+        height: 616px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        gap: 25px;
+        margin: auto;
+    }
+    .main .box .sound {
+        width: 640px;
+        height: 172px;
+
+    }
 
 }
