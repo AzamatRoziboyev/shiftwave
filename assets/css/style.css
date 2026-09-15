@@ -197,3 +197,30 @@ header .header-right .sign {
     }
 
 }
+@media(max-width: 1024px) {
+    header {
+        width: 1024px;
+        height: 64px;
+    }
+    .main {
+        width: 1024px;
+        height: 1140px;
+    }
+    .main .like {
+        width: 960px;
+        height: 220px;
+        border: 1px solid black;
+    }
+    .main .like h3 {
+        font-size: 65px;
+    }
+    .main .box {
+        width: 960px;
+        height: 560px;
+
+    }
+    .main .box .sound {
+        width: 896px;
+        height: 144px;
+    }
+}
