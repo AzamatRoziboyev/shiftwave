@@ -83,7 +83,6 @@ header .header-right .sign {
     width: 929px;
     height: 108px;
     color: white;
-    border: 1px solid black;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -104,7 +103,6 @@ header .header-right .sign {
 .main .box .sound {
     width: 284px;
     height: 196px;
-    border: 1px solid black;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
