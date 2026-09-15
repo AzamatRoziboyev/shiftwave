@@ -155,5 +155,19 @@ header .header-right .sign {
         justify-content: center;
         align-items: center;
     }
+    header .header-right {
+        width: 219px;
+        height: 40px;
+        border: 1px solid black;
+    }
+    header .header-right .login {
+        width: 70px;
+        height: 40px;
+    }
+    header .header-right .sign {
+        width: 137px;
+        height: 40px;
+        
+    }
 
 }
