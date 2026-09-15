@@ -209,7 +209,6 @@ header .header-right .sign {
     .main .like {
         width: 960px;
         height: 220px;
-        border: 1px solid black;
     }
     .main .like h3 {
         font-size: 65px;
@@ -223,4 +222,5 @@ header .header-right .sign {
         width: 896px;
         height: 144px;
     }
+    
 }
