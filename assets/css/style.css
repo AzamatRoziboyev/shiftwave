@@ -172,8 +172,20 @@ header .header-right .sign {
     .main {
         width: 768px;
         height: 1140px;
+        padding: 20px;
+        
+    }
+    .main h2 {
+        width: 607px;
+        height: 36px;
+        font-size: 16px;
+        margin-top: 50px;
+    }
+    .main .like {
+        width: 704px;
+        height: 230px;
+
     }
     .main 
-
 
 }
