@@ -119,3 +119,41 @@ header .header-right .sign {
 .main .box .sound span {
     color: blue;
 }
+
+@media (max-width: 768px) {
+    header {
+        width: 100%;
+        height: 64px;
+    }
+    header .header-left {
+        width: 131px;
+        height: 30px;
+        border: 1px solid black;
+    } 
+    header .header-left img {
+        width: 24px;
+        height: 24px;
+    }
+    header .header-left h1 {
+        font-size: 20px;
+    }
+    header .header-orta {
+        width: 338px;
+        height: 36px;
+        border: 1px solid black;
+    }
+    header .header-orta .a1 {
+        display: none;
+    }
+    header .header-orta .a2 {
+        display: block;
+        font-size: 20px;
+        width: 36px;
+        height: 36px;
+        border: 1px solid;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+}
