@@ -232,3 +232,28 @@ header .header-right .tel {
     }
 
 }
+@media(max-width: 360px) {
+    header {
+        width: 360px;
+        height: 60px;
+        border: 1px solid black;
+
+    }
+    header .header-orta {
+        display: none;
+    }
+     header .header-right {
+        width: 36px;
+        height: 36px;
+     }
+    header .header-right .login {
+        display: none;
+    }
+    header .header-right .sign {
+        display: none;
+    }
+    header .header-right .tel {
+        display: block;
+    }
+
+}
