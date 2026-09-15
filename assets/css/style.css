@@ -255,5 +255,34 @@ header .header-right .tel {
     header .header-right .tel {
         display: block;
     }
+    .main {
+        width: 360px;
+        height: 1260px;
+        padding: 10px;
+    }
+    .main h2 {
+        width: 315px;
+        height: 88px;
+        font-size: 20px;
+
+    }
+    .main .like {
+        width: 328px;
+        height: 272px;
+
+    }
+    .main .like h3 {
+        font-size: 35px;
+    }
+    .main .box {
+        width: 328px;
+        height: 672px;
+
+    }
+    .main .box .sound {
+        width: 296px;
+        height: 200px;
+        
+    }
 
 }
